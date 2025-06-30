@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="887.726 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,274.510 ns"></ZoomEndTime>
+      <Cursor1Time time="955.395 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="150"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/main_test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/wenable" type="logic">
+      <obj_property name="ElementShortName">wenable</obj_property>
+      <obj_property name="ObjectShortName">wenable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/readreg1" type="array">
+      <obj_property name="ElementShortName">readreg1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">readreg1[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/readreg2" type="array">
+      <obj_property name="ElementShortName">readreg2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">readreg2[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/writereg" type="array">
+      <obj_property name="ElementShortName">writereg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">writereg[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/aluopcode" type="array">
+      <obj_property name="ElementShortName">aluopcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">aluopcode[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/imme" type="array">
+      <obj_property name="ElementShortName">imme[8:0]</obj_property>
+      <obj_property name="ObjectShortName">imme[8:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/data_A" type="array">
+      <obj_property name="ElementShortName">data_A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_A[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/data_B" type="array">
+      <obj_property name="ElementShortName">data_B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_B[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/data_result" type="array">
+      <obj_property name="ElementShortName">data_result[17:0]</obj_property>
+      <obj_property name="ObjectShortName">data_result[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/counter" type="array">
+      <obj_property name="ElementShortName">counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/enfetch" type="logic">
+      <obj_property name="ElementShortName">enfetch</obj_property>
+      <obj_property name="ObjectShortName">enfetch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/endecode" type="logic">
+      <obj_property name="ElementShortName">endecode</obj_property>
+      <obj_property name="ObjectShortName">endecode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/enregrd" type="logic">
+      <obj_property name="ElementShortName">enregrd</obj_property>
+      <obj_property name="ObjectShortName">enregrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/enregwr" type="logic">
+      <obj_property name="ElementShortName">enregwr</obj_property>
+      <obj_property name="ObjectShortName">enregwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/enalu" type="logic">
+      <obj_property name="ElementShortName">enalu</obj_property>
+      <obj_property name="ObjectShortName">enalu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/enmem" type="logic">
+      <obj_property name="ElementShortName">enmem</obj_property>
+      <obj_property name="ObjectShortName">enmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/update" type="logic">
+      <obj_property name="ElementShortName">update</obj_property>
+      <obj_property name="ObjectShortName">update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/regen" type="logic">
+      <obj_property name="ElementShortName">regen</obj_property>
+      <obj_property name="ObjectShortName">regen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/shldBranch" type="logic">
+      <obj_property name="ElementShortName">shldBranch</obj_property>
+      <obj_property name="ObjectShortName">shldBranch</obj_property>
+   </wvobject>
+</wave_config>
