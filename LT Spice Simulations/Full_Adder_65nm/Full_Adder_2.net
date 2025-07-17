@@ -1,0 +1,38 @@
+* D:\NITR\VLSI\LT Spice CMOS\Full_Adder_2.asc
+M伯2 N010 B 0 0 NMOS l=65n w=2u
+M你2 N010 A 0 0 NMOS l=65n w=2u
+M低1 ~Cout C N010 0 NMOS l=65n w=2u
+M你1 ~Cout A N011 0 NMOS l=65n w=2u
+M伯1 N011 B 0 0 NMOS l=65n w=2u
+M低2 N003 C ~Cout N001 PMOS l=65n w=4u
+M你4 N001 A N003 N001 PMOS l=65n w=4u
+M伯4 N001 B N003 N001 PMOS l=65n w=4u
+M你3 N006 A ~Cout N001 PMOS l=65n w=4u
+M伯3 N001 B N006 N001 PMOS l=65n w=4u
+A兌1 ~Cout 0 0 0 0 Cout 0 0 BUF
+M你7 N009 A 0 0 NMOS l=65n w=2u
+M伯7 N009 B 0 0 NMOS l=65n w=2u
+M低7 N009 C 0 0 NMOS l=65n w=2u
+M4 N007 ~Cout N009 0 NMOS l=65n w=2u
+M你8 N007 A N008 0 NMOS l=65n w=3u
+M伯8 N008 B N012 0 NMOS l=65n w=3u
+M低8 N012 C 0 0 NMOS l=65n w=3u
+M8 N004 ~Cout N007 N001 PMOS l=65n w=4u
+M你5 N001 A N004 N001 PMOS l=65n w=4u
+M伯5 N001 B N004 N001 PMOS l=65n w=4u
+M低5 N001 C N004 N001 PMOS l=65n w=4u
+M你6 N005 A N007 N001 PMOS l=65n w=6u
+M伯6 N002 B N005 N001 PMOS l=65n w=6u
+M低6 N001 C N002 N001 PMOS l=65n w=6u
+V1 A 0 PULSE(0 1.2 0 5n 5n 80m 160m)
+V2 B 0 PULSE(0 1.2 0 5n 5n 40m 80m)
+V3 C 0 PULSE(0 1.2 0 5n 5n 20m 40m)
+V4 N001 0 1.2
+A兌2 N007 0 0 0 0 Sum 0 0 BUF
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\SONU\Documents\LTspiceXVII\lib\cmp\standard.mos
+.inc 65nm_bulk.txt
+.tran 160m
+.backanno
+.end
