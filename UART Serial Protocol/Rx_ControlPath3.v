@@ -37,7 +37,7 @@ module rx_controlpath(clock,reset,rx_start,rx_data_signal,par_load,par_check,par
 				end
 				Data_RxState : begin
 					if(sipo_count == 8 && rx_data_signal == 1)
-						next_state = Parity_State;
+						next_state = Parity_Load;
 					else 
 						next_state = Data_RxState;
 				end
