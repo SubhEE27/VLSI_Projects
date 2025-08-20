@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_mux16_1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_mux16_1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="46.004 ns"></ZoomEndTime>
+      <Cursor1Time time="31.885 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/test_mux16_1/a" type="logic">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/b" type="logic">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/c" type="logic">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/d" type="logic">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/e" type="logic">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/f" type="logic">
+      <obj_property name="ElementShortName">f</obj_property>
+      <obj_property name="ObjectShortName">f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/g" type="logic">
+      <obj_property name="ElementShortName">g</obj_property>
+      <obj_property name="ObjectShortName">g</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/h" type="logic">
+      <obj_property name="ElementShortName">h</obj_property>
+      <obj_property name="ObjectShortName">h</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/i" type="logic">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/j" type="logic">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/k" type="logic">
+      <obj_property name="ElementShortName">k</obj_property>
+      <obj_property name="ObjectShortName">k</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/l" type="logic">
+      <obj_property name="ElementShortName">l</obj_property>
+      <obj_property name="ObjectShortName">l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/m" type="logic">
+      <obj_property name="ElementShortName">m</obj_property>
+      <obj_property name="ObjectShortName">m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/n" type="logic">
+      <obj_property name="ElementShortName">n</obj_property>
+      <obj_property name="ObjectShortName">n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/o" type="logic">
+      <obj_property name="ElementShortName">o</obj_property>
+      <obj_property name="ObjectShortName">o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/p" type="logic">
+      <obj_property name="ElementShortName">p</obj_property>
+      <obj_property name="ObjectShortName">p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/sel3" type="logic">
+      <obj_property name="ElementShortName">sel3</obj_property>
+      <obj_property name="ObjectShortName">sel3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/sel2" type="logic">
+      <obj_property name="ElementShortName">sel2</obj_property>
+      <obj_property name="ObjectShortName">sel2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/sel1" type="logic">
+      <obj_property name="ElementShortName">sel1</obj_property>
+      <obj_property name="ObjectShortName">sel1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/sel0" type="logic">
+      <obj_property name="ElementShortName">sel0</obj_property>
+      <obj_property name="ObjectShortName">sel0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mux16_1/out" type="logic">
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+   </wvobject>
+</wave_config>
